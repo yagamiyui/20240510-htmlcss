@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTMLの基本 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <ul>
+    <li>卵（３個）</li>
+    <li>醤油（大さじ１）</li>
+    <li>みりん（大さじ１）</li>
+    <li>塩（少々）</li>
+  </ul>
+
+  <ol>
+    <li>卵を割りほぐし、調味料を加える</li>
+    <li>卵焼き器に卵液を1/4量を入れて広げる</li>
+    <li>半熟状になったら箸で手前に巻き、奥に移動させる</li>
+    <li>これを繰り返し、最後まで焼けたら完成</li>
+  </ol>
+  
+  <table border="1">
+    <tr>
+      <th>プラン名</th>
+      <th>料金</th>
+    </tr>
+    <tr>
+      <td>わくわくプラン</td>
+      <td>月額2,980円</td>
+    </tr>
+    <tr>
+    <td>ニコニコプラン</td>
+    <td>月額1,980円</td>
+    </tr>
+  </table>
+</body>
+
+<table border="1">
+  <tr>
+    <th colspan="2">ラーメン</th>
+  </tr>
+  <tr>
+    <td>塩ラーメン</td>
+    <td>醬油ラーメン</td>
+  </tr>
+  <tr>
+    <td>味噌ラーメン</td>
+    <td>豚骨ラーメン</td>
+  </tr>
+  <tr>
+    <td>鶏白湯ラーメン</td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>コース</th>
+    <th>回数</th>
+    <th>料金</th>
+  </tr>
+  <tr>
+    <td rowspan="2">電話プラン</td>
+    <td>5回まで</td>
+    <td>+500円</td>
+  </tr>
+  <tr>
+    <td>かけ放題</td>
+    <td>+1000円</td>
+  </tr>
+</table>
+
+<h2>フォーム</h2>
+<form>
+  <h3></h3>
+  <p>名前:<input type="text" placeholder="フルネーム"></p>
+  <p>メールアドレス:,<input type="email"></p>
+  <p>電話番号：<input type="tel"></p>
+
+  <p>
+    性別:
+    <input type="radio" name="gender" value="男">男
+    <input type="radio" name="gender" value="女">女
+    <input type="radio" name="gender" value="その他">その他
+  </p>
+
+  <p>
+    朝ご飯をたべましたか？
+    <input type="radio" name="bf" value="はい">はい
+    <input type="radio" name="bf" value="いいえ">いいえ
+  </p>
+
+  <p>
+    好きな色:
+    <input type="checkbox" name="color" value="赤">赤
+    <input type="checkbox" name="color" value="青">青
+    <input type="checkbox" name="color" value="黄">黄
+    <input type="checkbox" name="color" value="緑">緑
+  </p>
+
+  <p><input type="image" src="submit.png" alt="send" width="200" value="送信する"></p>
+  <p><input type="image" src="submit2.webp" width="200" value="送信する"></p>
+  <!-- <p><button type="submit">送信</button></p> -->
+
+
+  <p>
+    血液型
+    <select name="bloodtype">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="O">O</option>
+      <option value="AB">AB</option>
+      <option value="不明" selected>不明</option>
+    </select>
+  </p>
+
+  <p>
+    <textarea cols="30" rows="10" placeholder="メッセージを入力"></textarea> 
+  </p>
+</form>
+</html>
